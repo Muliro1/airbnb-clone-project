@@ -77,3 +77,18 @@ Securing the backend APIs is essential to protect sensitive user data, ensure th
 - **Securing Payments:** Ensures that payment transactions are safe from interception or fraud.
 - **Maintaining Trust:** A secure platform builds user confidence and trust.
 - **Compliance:** Adhering to security best practices and regulations (such as GDPR, PCI DSS) is necessary for legal and ethical reasons.
+
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying code changes. This ensures that new features, bug fixes, and updates are delivered quickly and reliably to production.
+
+**Importance for the Project:**
+- **Automated Testing:** Ensures code quality by running tests on every commit or pull request.
+- **Faster Deployment:** Reduces manual intervention, enabling rapid and consistent releases.
+- **Early Bug Detection:** Identifies issues early in the development cycle, minimizing production errors.
+- **Improved Collaboration:** Streamlines workflows for multiple contributors.
+
+**Tools Used:**
+- **GitHub Actions:** Automates workflows for testing and deployment.
+- **Docker:** Provides consistent environments for development, testing, and production.
+- **(Optional) Other Tools:** Jenkins, Travis CI, or CircleCI can also be integrated as needed.
