@@ -60,3 +60,20 @@ Features: Post and manage reviews for properties.
 7. Database Optimizations
 Indexing: Implement indexes for fast retrieval of frequently accessed data.
 Caching: Use caching strategies to reduce database load and improve performance.
+
+## API Security
+
+Securing the backend APIs is essential to protect sensitive user data, ensure the integrity of transactions, and maintain trust in the platform. The following key security measures will be implemented:
+
+- **Authentication:** Only registered users can access protected endpoints. This prevents unauthorized access to user accounts and sensitive information.
+- **Authorization:** Users are granted access only to resources they own or are permitted to view. This ensures that users cannot modify or view other users' data or bookings.
+- **Rate Limiting:** Limits the number of requests a user or IP can make in a given time frame. This helps prevent abuse, brute-force attacks, and denial-of-service (DoS) attacks.
+- **Data Encryption:** Sensitive data, such as passwords and payment information, will be encrypted both in transit (using HTTPS) and at rest.
+- **Input Validation & Sanitization:** All user inputs will be validated and sanitized to prevent common vulnerabilities like SQL injection and cross-site scripting (XSS).
+- **Secure Payment Processing:** Payment transactions will be handled using secure, PCI-compliant payment gateways to protect financial data.
+
+**Why Security is Crucial:**
+- **Protecting User Data:** Prevents unauthorized access to personal and financial information.
+- **Securing Payments:** Ensures that payment transactions are safe from interception or fraud.
+- **Maintaining Trust:** A secure platform builds user confidence and trust.
+- **Compliance:** Adhering to security best practices and regulations (such as GDPR, PCI DSS) is necessary for legal and ethical reasons.
